@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <!-- Use <%= page.title %> for dynamic title -->
+ <title><%= config.title %></title>
+ <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,700italic,800italic' rel='stylesheet' type='text/css'>
+ <!-- Twitter bootstrap (via cdn) -->
+ <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+ <%- css('css/style') %>
+ <%- js('js/fancytimeline.js') %>
+</head>
+<body>
+ <div class='container'>
+  <%- body %>
+ </div>
+</body>
+</html>
