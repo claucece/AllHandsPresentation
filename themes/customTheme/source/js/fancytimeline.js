@@ -1,4 +1,4 @@
-var divs = ["monthstimeline", "monthssecondtimeline", "monthsthridtimeline", "monthsfourthtimeline", "coachingobjectives", "literaturebooks", "personal"];
+var divs = ["monthstimeline", "monthssecondtimeline", "monthsthridtimeline", "monthsfourthtimeline", "coachingobjectives", "literaturebooks", "personal", "personalbooks"];
 var visibleDivId = null;
 
 function toggle_visibility(id) {
