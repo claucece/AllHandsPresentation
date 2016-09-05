@@ -1,4 +1,4 @@
-var divs = ["comunidadAprendizaje"];
+var divs = ['comunidadAprendizaje', 'bit'];
 var visibleDivId = null;
 
 function toggle_visibility(id, toHide) {
@@ -25,5 +25,6 @@ function hideNonVisibleDivs() {
 }
 
 function hideMain(toHide) {
-    document.getElementById(toHide).style.visibility = "hidden";
+    document.getElementById(toHide).style.display = "none";
 }
+
