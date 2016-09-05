@@ -1,13 +1,14 @@
-var divs = ["monthstimeline", "monthssecondtimeline", "monthsthridtimeline", "monthsfourthtimeline", "coachingobjectives", "literaturebooks", "personal", "personalbooks"];
+var divs = ["comunidadAprendizaje"];
 var visibleDivId = null;
 
-function toggle_visibility(id) {
+function toggle_visibility(id, toHide) {
     if (visibleDivId === id) {
         visibleDivId = null;
     } else {
         visibleDivId = id;
     }
     hideNonVisibleDivs();
+    hideMain(toHide);
 }
 
 function hideNonVisibleDivs() {
@@ -21,4 +22,8 @@ function hideNonVisibleDivs() {
             div.style.display = "none";
         }
     }
+}
+
+function hideMain(toHide) {
+    document.getElementById(toHide).style.visibility = "hidden";
 }
