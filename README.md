@@ -1,2 +1,1 @@
-lim
-   a rightarrow b 
+<img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Clim_%7Ba%20%5Crightarrow%20b%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" \lim_{a \rightarrow b} " width="33" height="28" />
